@@ -8,14 +8,14 @@ const MusicList = (props) => {
       {props.albums.length ?
         <div>
           <table>
-            <th>
+            <thead>
               <tr>
                 <th className="my-music-list_album">Album Name</th>
                 <th className="my-music-list_artiss">Artist(s)</th>
-                <th className="my-music-list_track-number">Track Number</th>
+                <th className="my-music-list_track-number">Track #</th>
                 <th className="my-music-list_track">Track</th>
               </tr>
-            </th>
+            </thead>
             <tbody>
               {props.albums.map(album => <Album key={album.name} album={album} />)}
             </tbody>

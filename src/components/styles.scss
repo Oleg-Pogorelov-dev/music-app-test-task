@@ -1,14 +1,21 @@
-@import "./album.scss";
+th {
+  text-align: left;
+}
 
-.my-music-list_album {
-  min-width: 200px;
-}
-.my-music-list_artiss {
-  width: 150px;
-}
-.my-music-list_track-number {
-  min-width: 100px;
-}
-.my-music-list_track{
-  min-width: 300px;
+.my-music-list {
+  &_extract-files {
+    margin-bottom: 24px;
+  }
+  &_album {
+    min-width: 200px;
+  }
+  &_artiss {
+    width: 150px;
+  }
+  &_track-number {
+    min-width: 100px;
+  }
+  &_track{
+    min-width: 300px;
+  }
 }

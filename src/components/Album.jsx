@@ -1,5 +1,4 @@
 import React from 'react';
-import './album.scss';
 
 const Album = (props) => {
   const tracks = () => {
@@ -21,9 +20,9 @@ const Album = (props) => {
         <td className="my-music-list_album">{props.album.name}</td>
         <td colSpan={3}>
           <table>
-            <tbody>
+            <td>
               {tracks()}
-            </tbody>
+            </td>
           </table>
         </td>
       </tr>
