@@ -1,0 +1,14 @@
+.my-music-list{
+  &_my-music-list_album {
+    width: 150px;
+  }
+  &_my-music-list_artiss {
+    width: 150px;
+  }
+  &_my-music-list_track-number {
+    width: 50px;
+  }
+  &_my-music-list_track {
+    width: 200px;
+  }
+}
