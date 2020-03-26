@@ -17,6 +17,7 @@ export default function Content() {
     const albums = {}
     metaData.forEach(meta => {
       const albumName = meta.metadata.common.album
+      console.log(meta);
       const track = {
         file: URL.createObjectURL(meta.track),
         file_name: meta.track.name,

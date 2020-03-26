@@ -13,6 +13,7 @@ const MusicList = (props) => {
                 <th className="my-music-list_album">Album Name</th>
                 <th className="my-music-list_artiss">Artist(s)</th>
                 <th className="my-music-list_track-number">Track #</th>
+                <th className="my-music-list_track">Track Name</th>
                 <th className="my-music-list_track">Track</th>
               </tr>
             </thead>
