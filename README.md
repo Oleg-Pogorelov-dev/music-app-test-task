@@ -2,7 +2,12 @@ MUSIC-APP-TEST_TASK was bootstrapped with [Create React App](https://github.com/
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you need run:
+
+### `npm i`
+to install required modules
+
+Then:
 
 ### `npm start`
 to start the app
