@@ -1,5 +1,7 @@
 MUSIC-APP-TEST_TASK was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+TEST-MUSIC-APP: https://github.com/Oleg-Pogorelov-levi/test-music-app
+
 ## Available Scripts
 
 In the project directory, you need run:
